@@ -1,11 +1,12 @@
 body{
-    background-color: green;
+    background-image: url("congruent_pentagon.png");
 }
 h1{
     color: white;
     text-align: center;
     font-family: "Trebuchet MS";
 }
+
 img.portrait{
   display: block;
   margin: auto;
@@ -15,9 +16,21 @@ img.portrait{
   border-style: ridge;
   border-color: blue;
 }
-p.footer{
+
+div.footer{
   text-align: center;
   color: white;
+  font-family: "Trebuchet MS";
+}
+
+a.footer:link{
+  color: white;
+  font-family: "Trebuchet MS";
+  text-decoration: underline;
+}
+
+a.footer:visited{
+  color: grey;
   font-family: "Trebuchet MS";
   text-decoration: underline;
 }
