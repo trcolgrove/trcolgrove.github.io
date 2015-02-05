@@ -1,9 +1,21 @@
 body{
     background-image: url("congruent_pentagon.png");
 }
-h1{
+
+
+
+div.banner{
+      background-color: blue;
+      margin: 0;
+      opacity: 0.6;
+      padding: 20px;
+}
+
+div.banner h1{
+    margin-left: 2%;
     color: white;
-    text-align: center;
+    opacity: 100%;
+    text-align: left;
     font-family: "Trebuchet MS";
 }
 
@@ -16,6 +28,7 @@ img.portrait{
   border-style: ridge;
   border-color: blue;
 }
+
 
 div.footer{
   text-align: center;
