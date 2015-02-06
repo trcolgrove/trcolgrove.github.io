@@ -1,17 +1,40 @@
 body{
+    margin: 0;
+    padding: 0;
     background-image: url("congruent_pentagon.png");
 }
 
+*{
+  box-sizing: border-box;
+}
 
+.button-container{
+  width: 40vw;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.button{
+    padding: 1vw 1vw 1vw 2vw; 
+    width: 100%;
+    display: block;
+    height: 8vw;
+    background-color: #0FF0F5;
+}
 
 div.banner{
-      background-color: blue;
+      background-color: #0066FF;
       margin: 0;
       opacity: 0.6;
       padding: 20px;
 }
 
-div.banner h1{
+.clear {
+  clear: both;
+}
+
+.banner h1{
+    float: left;
     margin-left: 2%;
     color: white;
     opacity: 100%;
@@ -19,19 +42,21 @@ div.banner h1{
     font-family: "Trebuchet MS";
 }
 
-img.portrait{
-  display: block;
-  margin: auto;
-  width: 350px;
-  height: 350px;
-  border-size: 40px;
-  border-style: ridge;
-  border-color: blue;
+.img-container{
+  display: table-row;
+  /*background-color: azure;*/
+  padding: 4em 5% 4em 5%;
+  width: 100%;
 }
 
+.image{
+  display: table-cell;
+  width: 30vw;
+  height: 30vw;
+}
 
-div.footer{
-  text-align: center;
+.banner h2{
+  float: right;
   color: white;
   font-family: "Trebuchet MS";
 }
@@ -40,10 +65,12 @@ a.footer:link{
   color: white;
   font-family: "Trebuchet MS";
   text-decoration: underline;
+  text-align: right;
 }
 
 a.footer:visited{
   color: grey;
   font-family: "Trebuchet MS";
   text-decoration: underline;
+  text-align: right;
 }
