@@ -9,19 +9,26 @@ body{
 }
 
 .button-container{
-  width: 40vw;
+  width: 60vw;
   display: table-cell;
   vertical-align: middle;
 }
 
 .button{
-    padding: 1vw 1vw 1vw 2vw; 
+    padding: 1vw 1vw 1vw 2vw;
     width: 100%;
     display: block;
     height: 8vw;
-    background-color: #0FF0F5;
+    margin: 1vw;
+    background-color: #0066FF;
+    text-decoration: none;
+    font-family: "Trebuchet MS";
+    color: white;
 }
 
+.button:hover{
+  background-color: turquoise;
+}
 div.banner{
       background-color: #0066FF;
       margin: 0;
@@ -42,11 +49,12 @@ div.banner{
     font-family: "Trebuchet MS";
 }
 
-.img-container{
+.grid-container{
   display: table-row;
   /*background-color: azure;*/
   padding: 4em 5% 4em 5%;
   width: 100%;
+  margin: auto;
 }
 
 .image{
