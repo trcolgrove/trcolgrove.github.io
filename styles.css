@@ -26,6 +26,9 @@ body{
     color: white;
 }
 
+p{
+  margin: 2vw;
+}
 .button:hover{
   background-color: turquoise;
 }
@@ -78,13 +81,13 @@ span{
   font-weight: bold;
 }
 
-a.footer:link{
+a.menu:link{
   color: white;
   text-decoration: underline;
   text-align: right;
 }
 
-a.footer:visited{
+a.menu:visited{
   color: grey;
   text-decoration: underline;
   text-align: right;
