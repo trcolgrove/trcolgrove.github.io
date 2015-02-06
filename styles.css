@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-image: url("congruent_pentagon.png");
+    font-family: "Trebuchet MS"
 }
 
 *{
@@ -28,6 +29,13 @@ body{
 
 .button:hover{
   background-color: turquoise;
+}
+
+.res-header{
+  margin: 1vw;
+}
+.res-content{
+  margin-left: 3vw;
 }
 div.banner{
       background-color: #0066FF;
