@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-image: url("congruent_pentagon.png");
-    font-family: "Trebuchet MS"
+    font-family: "Trebuchet MS", helvetica, sans-serif
 }
 
 *{
@@ -23,7 +23,6 @@ body{
     margin: 1vw;
     background-color: #0066FF;
     text-decoration: none;
-    font-family: "Trebuchet MS";
     color: white;
 }
 
@@ -54,7 +53,6 @@ div.banner{
     color: white;
     opacity: 100%;
     text-align: left;
-    font-family: "Trebuchet MS";
 }
 
 .grid-container{
@@ -74,19 +72,20 @@ div.banner{
 .banner h2{
   float: right;
   color: white;
-  font-family: "Trebuchet MS";
+}
+
+span{
+  font-weight: bold;
 }
 
 a.footer:link{
   color: white;
-  font-family: "Trebuchet MS";
   text-decoration: underline;
   text-align: right;
 }
 
 a.footer:visited{
   color: grey;
-  font-family: "Trebuchet MS";
   text-decoration: underline;
   text-align: right;
 }
